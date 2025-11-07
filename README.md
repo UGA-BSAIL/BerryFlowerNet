@@ -1,27 +1,20 @@
-# Guidelines_repo_organization
-## Uploading Projects:
-Most projects should be uploaded to GitHub, except for certain CAD and mechanical design projects.
-## Storing Raw Data: 
-Raw data can be stored in other locations, such as the lab server, HiperGator, or OneDrive. Be sure to specify the data storage location in the README.md file.
-## Staying Up-to-Date: 
-Keep the repository up to date, for example, when your paper is finished or when you graduate.
-## Privacy Settings: 
-Set the repository to private until your paper is published. Once published, you may make the repository public.
-
-
-
-<big>**Below is a list of suggested information to include in a README.md file.**</big>
 # Project Description
-An overview of the project, its goals, and methodologies
+This repository contains the source code and instruction for blueberry flower counting. Detailed methodology and results can be found from our paper.
 
 # Setup Instructions
-Guide on setting up the environment, such as installing packages using requirements.txt. In particular, specifics for Hipergator. 
+Pip install all requirements in a Python>=3.10 environment with PyTorch>=2.7.1. 
 
 # Usage
-Provide the location of the code and instructions for running the main scripts, including training, evaluation, and any visualization scripts. 
+1. Clone this repository.
+2. cd ```./src```
+3. Run ```./train.py``` to train the detection model.
+4. Run ```./test.py``` to evaluate the model.
+5. Run ```./inference_on_raw_imgs.py``` to get the predictions on raw images.
 
 # Data Information
-Specify where the raw data is located (e.g., in the raw_data folder or an external link). Include any important notes on data access or format requirements. 
+The dataset will be made available upon reasonable request.
 
-# Results or Paper (Optional)
-If available, link to results, visualizations, or a research paper and add the citation format. 
+# Acknowledgement
+- [ultralytics](https://github.com/ultralytics/ultralytics)
+- [SAHI](https://github.com/obss/sahi)
+- [Powerful-IoU](https://github.com/fppccc/Powerful-IoU) 

@@ -1,0 +1,13 @@
+torch
+numpy
+opencv-python
+numba
+matplotlib
+scikit-image
+scipy
+pillow
+pyyaml
+psutil
+polars
+ultralytics-thop
+sahi
