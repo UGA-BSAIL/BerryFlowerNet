@@ -12,7 +12,7 @@ Pip install all requirements in a Python>=3.10 environment with PyTorch>=2.7.1.
 5. Run ```./inference_on_raw_imgs.py``` to get the predictions on raw images.
 
 # Data Information
-The dataset will be made available after the paper is published.
+The dataset is available at: [Google Drive](https://drive.google.com/file/d/1sbq4Mm5nqi-T3mVuSR1t_Hr-1_OejL1C/view?usp=drive_link)
 
 # Acknowledgement
 - [ultralytics](https://github.com/ultralytics/ultralytics)
